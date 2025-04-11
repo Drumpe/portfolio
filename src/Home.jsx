@@ -60,7 +60,7 @@ export default function Home() {
             <li>LIA 1+2 (Lärande i arbete) på Axiell under 20 veckor</li>
             <li>Examensarbete -&nbsp;
               <a
-                href="src/assets/documents/Examensarbete Ola Persson Orator.pdf"
+                href="/assets/documents/ExamensarbeteOlaPerssonOrator.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -258,7 +258,7 @@ export default function Home() {
           Ola Persson Orator
         </motion.h1>
         <img
-          src="src/assets/images/HeadShotRemake.png"
+          src="/assets/images/HeadShotRemake.png"
           alt="Ola Persson"
           className="w-40 h-40 rounded-full mx-auto shadow-lg"
         />
@@ -344,7 +344,7 @@ export default function Home() {
       {/* CV-länk */}
       <section className="text-center">
         <a
-          href="src/assets/documents/CV-Sv-OlaPerssonOrator.pdf"
+          href="/assets/documents/CV-Sv-OlaPerssonOrator.pdf"
           download
           className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
         >
