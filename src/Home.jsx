@@ -169,9 +169,7 @@ export default function Home() {
                 G1N - PLC-programmering (7,5 hp)
               </a>
             </li>
-
           </ul>
-
         </div>
       )
     },
@@ -340,7 +338,35 @@ export default function Home() {
           ))}
         </div>
       </section>
-
+      {/* Språk */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold">Språk</h2>
+        <div className="border rounded-xl p-4 shadow-sm space-y-1">
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Svenska (modersmål)</li>
+            <li>Engelska (flytande)</li>
+            <li>Tyska (grundläggande)</li>
+          </ul>
+        </div>
+      </section>
+      {/* Certifikat */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold">Certifikat</h2>
+        <div className="border rounded-xl p-4 shadow-sm space-y-1">
+          <ul className="list-disc pl-5 space-y-1">
+            <li>
+              <a
+                href="/assets/documents/zenon_11_Ola_Persson_Orator.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                COPA-DATA Zenon 11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       {/* CV-länk */}
       <section className="text-center">
         <a
