@@ -30,7 +30,7 @@ const EducationCard = ({ title, period, details }) => {
   );
 };
 
-export default function Home() {
+export function CV() {
   const educationData = [
     {
       title: 'Jensen YH, Malmö',
