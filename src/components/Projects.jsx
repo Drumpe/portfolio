@@ -2,11 +2,23 @@ export function Projects() {
   const projects = [
     {
       title: "Slotsify",
-      description: "React + Supabase slotsmaskin med serverstyrd RNG",
+      description: "Slotsify är ett webbspel byggt i React med Supabase som backend. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet och rättvisa resultat. Jag ville undersöka hur man kan kombinera klient- och serverlogik för att skapa en användarvänlig men samtidigt robust upplevelse.",
       tech: ["React", "Supabase", "Vite"],
       link: "https://slotsify.netlify.app"
     },
-    // Lägg till fler projekt här
+    {
+      title: "Munamii",
+      description: "Munamii Cakery är en webbplats för ett fiktivt bageri, byggd med React och betallösning från Stripe. ",
+      tech: ["React", "Vite", "Stripe", "Netlify"],
+      link: "https://munamii.netlify.app"
+    },
+    {
+      title: "Portfolio",
+      description: "Min personliga portfolio, byggd med React och Tailwind CSS. Denna webbplats är en del av min resa som utvecklare och visar upp mina projekt och erfarenheter.",
+      tech: ["React", "Tailwind CSS", "Vite"],
+      link: "https://ola-persson.netlify.app"
+    },
+    
   ];
 
   return (
