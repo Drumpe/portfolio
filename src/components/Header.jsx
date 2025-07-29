@@ -5,7 +5,7 @@ export function Header() {
   const location = useLocation();
   const isCV = location.pathname.startsWith("/cv");
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm bg-gradient-to-b from-gray-300 to-gray-100">
       <nav className="max-w-4xl mx-auto flex items-center justify-between px-4 py-2">
         <span className="font-bold text-lg">Ola Persson Orator</span>
         <div className="flex gap-4">

@@ -4,7 +4,7 @@ export function Projects() {
   const projects = [
     {
       title: "Slotsify",
-      description: "Slotsify är ett webbspel byggt i React med Supabase som backend. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet och rättvisa resultat. Jag ville undersöka hur man kan kombinera klient- och serverlogik för att skapa en användarvänlig men samtidigt robust upplevelse.",
+      description: "Slotsify är ett webbspel byggt i React med Netlify functions som backend och Supabase som db. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet. Jag ville lära mig hur mycket som Nelify functions kan göra utan att behöva deploya en full backend.",
       tech: ["React", "Supabase", "Vite"],
       link: "https://slotsify.netlify.app",
       image: "/assets/images/SlotsifyScreenShot.png" 
