@@ -94,6 +94,8 @@ export const Contact = () => {
           name="user_name"
           id="user_name"
           className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 transition"
+          placeholder="Ditt namn"
+          autoComplete="name"
           required
         />
         <label htmlFor="user_email" className="text-left font-semibold">Email</label>
@@ -102,6 +104,8 @@ export const Contact = () => {
           name="user_email"
           id="user_email"
           className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 transition"
+          placeholder="Din e-post"
+          autoComplete="email"
           required
         />
         <label htmlFor="message" className="text-left font-semibold">Meddelande</label>
@@ -110,6 +114,9 @@ export const Contact = () => {
           id="message"
           rows={5}
           className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 transition"
+          placeholder="Ditt meddelande..."
+          autoComplete="off"
+          autoCorrect="off"
           required
         />
         <input
