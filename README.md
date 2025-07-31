@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, built with React, Vite, and Tailwind CSS. Here you can find information about me, my projects, and how to contact me.
 
-🌐 Live: [https://ola-persson.netlify.app/](https://ola-persson.netlify.app/)
+🌐 Live: [https://olapersson.netlify.app/](https://olapersson.netlify.app/)
 
 ## Features
 

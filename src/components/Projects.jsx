@@ -22,7 +22,7 @@ export function Projects() {
       title: "Portfolio",
       description: "Min personliga portfolio, byggd med React och Tailwind CSS. Denna webbplats är en del av min resa som utvecklare och visar upp några av mina projekt och erfarenheter.",
       tech: ["React", "Tailwind CSS", "Emailjs", "Netlify"],
-      link: "https://ola-persson.netlify.app",
+      link: "https://olapersson.netlify.app/",
       github: "https://github.com/Drumpe/portfolio",
       image: "/assets/images/HeadShotRemake.png"
     },
