@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="py-16 px-6 bg-white text-center" id="about">
+    <section className="py-16 px-6 text-center bg-gray bg-gradient-to-b from-gray to-gray-200" id="about">
       <h2 className="text-3xl font-bold mb-4">Om mig</h2>
       <p className="max-w-2xl mx-auto text-lg">
         Med 20 års erfarenhet från livsmedelsbranschen har jag med mig något som inte alltid syns i koden –

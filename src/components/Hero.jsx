@@ -9,7 +9,7 @@ export function Hero() {
       </p>
       <a
         href="#projects"
-        className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-xl shadow-md"
+        className="bg-green-500 hover:bg-green-400 text-white px-6 py-3 rounded-xl shadow-md"
       >
         Se mina projekt
       </a>

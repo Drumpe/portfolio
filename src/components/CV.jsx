@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { motion } from "framer-motion";
 import { useState } from 'react';
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+
 
 const EducationCard = ({ title, period, details }) => {
   const [isOpen, setIsOpen] = useState(false);
