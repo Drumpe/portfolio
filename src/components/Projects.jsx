@@ -4,7 +4,7 @@ export function Projects() {
   const projects = [
     {
       title: "Slotsify2",
-      description: "Slotsify2 är en uppdaterad version av Slotsify, byggd med React och PixiJS för att skapa en mer dynamisk och interaktiv spelupplevelse. Denna version använder Supabase för datalagring och Netlify för hosting.",
+      description: "Slotsify2 är en uppdaterad version av Slotsify, byggd med React och PixiJS för att skapa en mer dynamisk och interaktiv spelupplevelse. Denna version använder Supabase för datalagring och Netlify för hosting. Projektet fokuserar på att förbättra användargränssnittet och spelmekaniken, med en ny grafikmotor som möjliggör mer komplexa animationer och effekter. Om man bara vill testa finns användaren: test@test.se pwd:12345678, annars är det verifiering av e-post aktiverat.",
       tech: ["React", "Vite", "Netlify", "Supabase", "PixiJS"],
       link: "https://slotsify2.netlify.app",
       github: "https://github.com/Drumpe/Slotsify2",
