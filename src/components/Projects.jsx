@@ -3,12 +3,12 @@ import { image, title } from "framer-motion/client";
 export function Projects() {
   const projects = [
     {
-      title: "Slotsify",
-      description: "Slotsify är ett webbspel byggt i React med Netlify functions som backend och Supabase som db. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet. Jag ville lära mig hur mycket Nelify functions kan göra utan att behöva deploya en full backend. Grafiken och användargränssnittet kommer snart att uppdateras.",
-      tech: ["React", "Vite", "Netlify", "Supabase"],
-      link: "https://slotsify.netlify.app",
-      github: "https://github.com/Drumpe/slotsify",
-      image: "/assets/images/SlotsifyScreenShot.png"
+      title: "Slotsify2",
+      description: "Slotsify2 är en uppdaterad version av Slotsify, byggd med React och PixiJS för att skapa en mer dynamisk och interaktiv spelupplevelse. Denna version använder Supabase för datalagring och Netlify för hosting.",
+      tech: ["React", "Vite", "Netlify", "Supabase", "PixiJS"],
+      link: "https://slotsify2.netlify.app",
+      github: "https://github.com/Drumpe/Slotsify2",
+      image: "/assets/images/Slotsify2ScreenShot.png"
     },
     {
       title: "Munamii",
@@ -17,6 +17,14 @@ export function Projects() {
       link: "https://munamii.netlify.app",
       github: "https://github.com/Drumpe/Munamii_Cakery",
       image: "/assets/images/MunamiiScreenShot.png"
+    },
+        {
+      title: "Slotsify",
+      description: "Slotsify är ett webbspel byggt i React med Netlify functions som backend och Supabase som db. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet. Jag ville lära mig hur mycket Nelify functions kan göra utan att behöva deploya en full backend. Användargränssnitt är jag inte nöjd med, så därför gjorde jag Slotsify2.",
+      tech: ["React", "Vite", "Netlify", "Supabase"],
+      link: "https://slotsify.netlify.app",
+      github: "https://github.com/Drumpe/slotsify",
+      image: "/assets/images/SlotsifyScreenShot.png"
     },
     {
       title: "Portfolio",
