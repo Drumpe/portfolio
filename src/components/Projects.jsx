@@ -4,7 +4,7 @@ export function Projects() {
   const projects = [
     {
       title: "Slotsify2",
-      description: "Slotsify2 är en uppdaterad version av Slotsify, byggd med React och PixiJS för att skapa en mer dynamisk och interaktiv spelupplevelse. Denna version använder Supabase för datalagring och Netlify för hosting. Projektet fokuserar på att förbättra användargränssnittet och spelmekaniken, med en ny grafikmotor som möjliggör mer komplexa animationer och effekter. Om man bara vill testa finns användaren: test@test.se pwd:12345678, annars är det verifiering av e-post aktiverat.",
+      description: "Slotsify2 är en uppdaterad version av Slotsify, byggd med React och PixiJS för att skapa en mer dynamisk och interaktiv spelupplevelse. Denna version använder Supabase för datalagring och Netlify för hosting. Projektet fokuserar på att förbättra användargränssnittet och spelmekaniken, med en ny grafikmotor som möjliggör mer komplexa animationer och effekter. Om man bara vill testa finns användaren: test@test.se pwd:12345678, annars är det verifiering av e-post som gäller. (under utveckling)",
       tech: ["React", "Vite", "Netlify", "Supabase", "PixiJS"],
       link: "https://slotsify2.netlify.app",
       github: "https://github.com/Drumpe/Slotsify2",
@@ -28,7 +28,7 @@ export function Projects() {
     },
     {
       title: "Portfolio",
-      description: "Min personliga portfolio, byggd med React och Tailwind CSS. Denna webbplats är en del av min resa som utvecklare och visar upp några av mina projekt och erfarenheter.",
+      description: "Min personliga portfolio (den här sajten), byggd med React och Tailwind CSS. Denna webbplats är en del av min resa som utvecklare och visar upp några av mina projekt och erfarenheter.",
       tech: ["React", "Tailwind CSS", "Emailjs", "Netlify"],
       link: "https://olapersson.netlify.app/",
       github: "https://github.com/Drumpe/portfolio",
