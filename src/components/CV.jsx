@@ -301,6 +301,7 @@ export function CV() {
           färdigheter i kommunikation och projektledning. Jag är särskilt
           intresserad av cybersäkerhet och moderna utvecklingsmetoder.
         </p>
+        <p><em>Älskar problemlösning, ju svårare desto roligare!</em></p>
       </section>
 
       {/* Erfarenhet */}
