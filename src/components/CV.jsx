@@ -372,7 +372,7 @@ export function CV() {
       {/* CV-länk */}
       <section className="text-center">
         <a
-          href="/assets/documents/CV-Sv-OlaPerssonOrator.pdf"
+          href="/assets/documents/CV-OlaPerssonOrator.pdf"
           download
           className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
         >

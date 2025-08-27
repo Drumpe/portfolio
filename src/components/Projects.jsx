@@ -18,7 +18,7 @@ export function Projects() {
       github: "https://github.com/Drumpe/Munamii_Cakery",
       image: "/assets/images/MunamiiScreenShot.png"
     },
-        {
+    {
       title: "Slotsify",
       description: "Slotsify är ett webbspel byggt i React med Netlify functions som backend och Supabase som db. Projektet utforskar serverstyrd slumpgenerering med fokus på säkerhet. Jag ville lära mig hur mycket Nelify functions kan göra utan att behöva deploya en full backend. Användargränssnitt är jag inte nöjd med, så därför gjorde jag Slotsify2.",
       tech: ["React", "Vite", "Netlify", "Supabase"],
