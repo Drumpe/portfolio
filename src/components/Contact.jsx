@@ -114,7 +114,7 @@ export const Contact = () => {
       </form>
       <div className="flex justify-center gap-6 text-2xl">
         <a href="https://github.com/drumpe" target="_blank" className="hover:text-green-600">GitHub</a>
-        <a href="https://linkedin.com/in/ola-persson" target="_blank" className="hover:text-green-600">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/ola-persson-orator-865066154/" target="_blank" className="hover:text-green-600">LinkedIn</a>
       </div>
     </section>
   );
