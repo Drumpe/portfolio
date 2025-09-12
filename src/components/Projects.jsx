@@ -11,6 +11,14 @@ export function Projects() {
       image: "/assets/images/Slotsify2ScreenShot.png"
     },
     {
+      title: "EnergiData",
+      description: "EnergiData, en applikation som samlar in och analyserar energidata/väder från bland annat SMHI och ENTSO-E. Backend är byggd med .NET 9 och lagrar data i en PostgreSQL-databas, medan frontend är skapad med moderna TypeScript-verktyg för att visualisera informationen på ett interaktivt sätt. Projektet använder Docker för enkel utveckling och driftsättning. Med EnergiData kan användare enkelt följa och jämföra energiförbrukning och produktion över tid för prisområde SE4.",
+      tech: ["React", "PostgreSQL", ".NET Core API", "Docker", "ApexCharts", "TypeScript", "Tailwind CSS"],
+      link: "",
+      github: "https://github.com/Drumpe/EnergiData",
+      image: "/assets/images/EnergiDataScreenShot.png"
+    },
+    {
       title: "Munamii",
       description: "Munamii Cakery är en webbplats för ett fiktivt bageri, byggd med React och betallösning från Stripe. ",
       tech: ["React", "Vite", "Stripe", "Netlify"],
