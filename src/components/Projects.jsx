@@ -13,7 +13,7 @@ export function Projects() {
     {
       title: "EnergiData",
       description: "EnergiData, en applikation som samlar in och analyserar energidata/väder från bland annat SMHI och ENTSO-E. Backend är byggd med .NET 9 och lagrar data i en PostgreSQL-databas, medan frontend är skapad med moderna TypeScript-verktyg för att visualisera informationen på ett interaktivt sätt. Projektet använder Docker för enkel utveckling och driftsättning. Med EnergiData kan användare enkelt följa och jämföra energiförbrukning och produktion över tid för prisområde SE4.",
-      tech: ["React", "PostgreSQL", ".NET Core API", "Docker", "ApexCharts", "TypeScript", "Tailwind CSS"],
+      tech: ["Docker", "PostgreSQL", "TypeScript", "C#", "React", ".NET Core API", "ApexCharts", "Tailwind CSS", "BackgroundServices"],
       link: "",
       github: "https://github.com/Drumpe/EnergiData",
       image: "/assets/images/EnergiDataScreenShot.png"
