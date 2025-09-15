@@ -20,7 +20,7 @@ export function Projects() {
     },
     {
       title: "Munamii",
-      description: "Munamii Cakery är en webbplats för ett fiktivt bageri, byggd med React och betallösning från Stripe. ",
+      description: "Munamii Cakery är en webbplats för ett fiktivt bageri, byggd med React och betallösning från Stripe. (Under utveckling)",
       tech: ["React", "Vite", "Stripe", "Netlify"],
       link: "https://munamii.netlify.app",
       github: "https://github.com/Drumpe/Munamii_Cakery",
